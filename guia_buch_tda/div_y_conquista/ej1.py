@@ -23,14 +23,3 @@ def finder_rec(vec, n):
         return None
     else:
         return n//2 - 1
-    
-
-vec=[1,2,3,4,5,11,7,8,9,10]
-vec2=[12,20,30,40,50,70,80,90,11]
-vec3=[1,2,3,4,5,7,8,9,]
-vec4=[11,2,3,4,5,6,7,8,9,10]
-
-print(finder_rec(vec,len(vec)))
-print(finder_rec(vec2,len(vec2)))
-print(finder_rec(vec3,len(vec3)))
-print(finder_rec(vec4,len(vec4)))
